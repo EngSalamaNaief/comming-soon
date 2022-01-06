@@ -1,0 +1,23 @@
+.backG{
+position: relative;
+opacity: 0;
+}
+.backG .p{
+        position:absolute;
+        transform:translate(-50%,-50%);
+        opacity: 0;
+}
+.backG .ph{
+    position: absolute;;
+    top: -50px;
+    left: 50vw;
+    opacity: 0;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    text-align: center;
+}
+@media(max-width:576px){
+    .backG .ph{
+font-size:  xx-large;
+    }
+}
